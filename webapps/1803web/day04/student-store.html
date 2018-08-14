@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style type="text/css">
+* {
+	margin: 0px;
+	padding: 0px;
+	/* 第一个字体大小 后面内容为多个字体名称 */
+	font: 12px "simhei", Arial, Helvetica, sans-serif;
+}
+
+#bigdiv {
+	width: 1000px;
+	height: 376px;
+	margin: 0 auto;
+
+}
+
+#leftsmall {
+	width: 611px;
+	height: 376px;
+	background-color: #E8E8E8;
+	background-image: url(../images/itemCat/study_computer_img1.png);
+	background-repeat: no-repeat;
+	background-size: 318px 319px;
+	background-position: 94% 60%;
+	/* 解决bug */
+	overflow:hidden;
+	float: left;
+}
+
+#rightsmall {
+	width: 375px;
+	height: 376px;
+	background-color: #E8E8E8;
+	background-image: url(../images/itemCat/study_computer_img2.png);
+	background-repeat: no-repeat;
+	background-size: 292px 232px;
+	background-position: 80% 90%;
+	overflow:hidden;
+	float: right;
+}
+
+#text1 {
+	text-align: left;
+	margin-top: 68px;
+	margin-left: 36px;
+}
+
+#text2 {
+	text-align: left;
+	margin-top: 39px;
+	margin-left: 25px;
+}
+
+.c1 {
+	color: #333333;
+	font-size: 32px;
+	margin-bottom: 12px;
+	font-weight: lighter;
+}
+
+.c2 {
+	color: #666;
+	margin-bottom: 24px;
+	font-size: 12px;
+}
+
+.c3 {
+	margin-bottom: 12px;
+	font-weight: bold;
+	color: #0AA1ED;
+	font-size: 24px;
+}
+
+.c4 {
+	background-color: #0aa1ed;
+	/* 设置圆角边框 ，值越大角越圆  */
+	border-radius: 2px;
+	width: 132px;
+	height: 40px;
+	text-align: center;
+    vertical-align: middle;
+	cursor: pointer;
+}
+
+a {
+	line-height: 40px;
+	color: #fff;
+	text-decoration: none;
+    font-size: 20px;
+}
+</style>
+</head>
+<body>
+	<div id="bigdiv">
+		<div id="leftsmall">
+			<div id="text1">
+				<p class="c1">灵越 燃7000系列</p>
+				<p class="c2">
+					酷睿双核i5处理器|256GB SSD| 8GB内存<br>英特尔HD显卡620共享显卡内存
+				</p>
+				<p class="c3">￥4999.00</p>
+				<p class="c4">
+					<a href="">查看详情</a>
+				</p>
+			</div>
+		</div>
+		<div id="rightsmall">
+			<div id="text2">
+				<p class="c1">颜值 框不住</p>
+				<p class="c2">
+					酷睿双核i5处理器|256GB SSD| 8GB内存<br>英特尔HD显卡620共享显卡内存
+				</p>
+				<p class="c3">￥6888.00</p>
+				<p class="c4">
+					<a href="">查看详情</a>
+				</p>
+			</div>
+		</div>
+	</div>
+
+</body>
+</html>

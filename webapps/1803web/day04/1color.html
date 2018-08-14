@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style type="text/css">
+div {
+	width: 200px;
+	height: 200px;
+	/* 1.通过颜色名称赋值  */
+	/* background-color:orange; */
+	/* 2.通过6位的16进制赋值 ，每两个值表示一个颜色*/
+	/* background-color: #ff00ff; */
+	/* 3.3位16进制写法 */
+	/* background-color: #0f0; */
+	/* 4.通过rgb(250,0,0)*/
+	/* background-color:rgb(250,0,0) */
+	/* 5.通过rgb 10进制赋值，带透明 a=aalpha(0-1) */
+	background-color: rgba(0, 0, 255, 1);
+}
+
+#small {
+	width: 100px;
+	height: 100px;
+	background-color: rgba(255, 255, 0, 0.8);
+}
+</style>
+</head>
+<body>
+	<div>
+		颜色div
+		<div id="small"></div>
+	</div>
+</body>
+</html>
